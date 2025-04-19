@@ -6,33 +6,37 @@ This repository contains the final implementation of **"Feeling the Heat: An Int
 
 This project redesigns a static choropleth map of projected Cooling Degree Days (CDD) to enhance **emotional resonance**, **analytical clarity**, and **interactive exploration**. Inspired by foundational visualization theory (Munzner, 2014), affective design frameworks (Lan et al., 2023), and interactive climate visual principles (Mahyar, 2024), this redesign visualizes country-level temperature trends over time using open-source climate data and custom visual encodings.
 
+In response to feedback from **Prof. Binbin Li**, an additional component was added to localize climate storytelling: a **monthly temperature time series for New York City (1869–2022)**. Prof. Li emphasized the importance of allowing users to reflect on familiar places and experiences over time to foster empathy and patience in the face of climate uncertainty. This inspired a more grounded, personal view of climate change.
+
 ## 📊 Features
 
-- 🗺️ Dynamic choropleth map (country-level, 1900–2013)
-- 🎨 Custom color scale (bone white → orange → purple) to evoke climate urgency
-- 📆 Interactive timeline slider (play by year)
-- 🖱️ Hover tooltips with temperature and country info
-- 📌 Narrative tags for key events (e.g., 2003 European heatwave)
+- 🗺️ **Global Map**: Dynamic choropleth map (country-level, 1900–2013)
+- 🎨 **Color Design**: Custom color scale (bone white → orange → flaming purple) to evoke climate urgency
+- 📆 **Time Slider**: Animated timeline to explore temperature change by year
+- 🖱️ **Tooltips**: Hover-enabled country, year, temperature, and key events
+- 📌 **Narrative Tags**: e.g., 2003 European heatwave, 2010 Russian heatwave
+- 🌆 **City-Level Storytelling**: NYC temperature trends visualized over 150+ years
 
 ## 🛠️ Tools & Technologies
 
 - [Python (Google Colab)](https://colab.research.google.com/)
 - [Plotly](https://plotly.com/python/)
 - [Pandas](https://pandas.pydata.org/)
-- [Berkeley Earth dataset](http://berkeleyearth.org/data/)
 
 ## 📁 Files
 
 | Filename | Description |
 |----------|-------------|
-| `Redesign_visualization.ipynb` | Final Colab notebook with full code, interactivity, and annotations |
-| `GlobalLandTemperaturesByCountry.csv` | Dataset downloaded from [Kaggle](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data) |
+| `Redesign_visualization.ipynb` | Final notebook with global + NYC visualizations |
+| `GlobalLandTemperaturesByCountry.csv` | Dataset from [Berkeley Earth on Kaggle](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data) |
+| `NYC_Central_Park_weather_1869-2022.csv` | Dataset from [Dan Braswell on Kaggle](https://www.kaggle.com/datasets/danbraswell/new-york-city-weather-18692022) |
 | `README.md` | Project documentation |
 
 ## 🔗 Links
 
-- 🔬 Kaggle dataset: [Global Land Temperatures](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
-- 🧪 Visualization demo: Run the `.ipynb` notebook in Google Colab
+- 🌍 [Global Climate Dataset – Berkeley Earth](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
+- 🌆 [NYC Weather Dataset – Central Park (1869–2022)](https://www.kaggle.com/datasets/danbraswell/new-york-city-weather-18692022)
+- 📊 Visualization notebook: Viewable in Google Colab
 - 📑 Full academic report & poster available upon request
 
 ## ✅ Disclaimer
@@ -41,4 +45,4 @@ Course project for **INFOSCI 301 – Data Visualization and Information Aestheti
 
 ## 🙏 Acknowledgments
 
-Thanks to Prof. Zhang, guest speakers, and classmates for their feedback and support throughout the redesign process.
+Thanks to Prof. Zhang for instructional support, and special thanks to **Prof. Binbin Li (Environmental Science, DKU)** for her insights on the emotional power of local context and the importance of patience and open-ended reflection in climate communication.
