@@ -45,4 +45,4 @@ Course project for **INFOSCI 301 – Data Visualization and Information Aestheti
 
 ## 🙏 Acknowledgments
 
-Thanks to Prof. Zhang for instructional support, and special thanks to **Prof. Binbin Li (Environmental Science, DKU)** for her insights on the emotional power of local context and the importance of patience and open-ended reflection in climate communication.
+Thanks to Prof. Zhang for instructional support, and to all peers whose feedback helped shape this project. And also thanks guest speakers David Schaaf and Dongping Liu for their inspiring insights on immersive education and real-world visualization applications. And special thanks to **Prof. Binbin Li (Environmental Science, DKU)** for her insights on the emotional power of local context and the importance of patience and open-ended reflection in climate communication.
